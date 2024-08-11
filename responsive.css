@@ -1,0 +1,19 @@
+@media screen and (max-width: 576px) {
+  .nav-container {
+    flex-direction: column;
+    margin: 0 auto;
+
+  }
+  .nav-burger{
+    display: block;
+    color: rgba(239, 13, 5, 0.805);
+    margin-top: 20px;
+}
+.nav-container ul {
+    display: none;
+  }
+}
+
+/* medium device  */
+@media screen and (max-width: 800px) {
+}
