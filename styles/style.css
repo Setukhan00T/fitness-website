@@ -12,7 +12,7 @@
 * {
   max-width: 1440px;
   margin: 0 auto;
-  background: rgb(7, 7, 7);
+  background: rgb(12, 11, 11);
 }
 /* nav css start */
 .nav-container {
@@ -21,6 +21,7 @@
   align-items: center;
   margin-bottom: 100px;
   margin-top: 5px;
+  max-width: 1240px;
 }
 .nav-container h2 {
   color: red;
@@ -56,13 +57,13 @@
 
 /* banner css start */
 .banner-container {
+  max-width: 1240px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 .banner-text {
   color: hsl(0, 0%, 100%);
-  text-align: left;
 }
 .banner-text h1 {
   font-size: 4.5rem;
@@ -100,23 +101,85 @@
   margin-left: 4px;
   cursor: pointer;
 }
-.banner-img{
-    max-width: 100%;
-    
+.banner-box-1 {
+  color: #fff;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.102);
+  border-radius: 12px;
+  position: absolute;
+  padding: 15px 20px;
+  top: 250px;
+  right: 150px;
+  border-style: none;
 }
-.banner-box-1{
-    text-align: center;
-    color: #fffffffb;
-    font-weight: 400;
-    font-size: 1rem;
-    box-sizing: border-box;
-border: 1px solid rgba(255, 255, 255, 0.1);
-backdrop-filter: blur(20px);
-background: rgba(48, 48, 48, 0.54);
-    border-radius: 20px;
-    margin: 0 auto;
-    position: absolute;
-    bottom: 50px;
-    padding: 10px 20px;
+.banner-box-2 {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 15px 20px;
+  position: absolute;
+  bottom: 100px;
+  left: 850px;
+  border-style: none;
+}
+.red-circle {
+  width: 30px;
+  height: 30px;
+  background-color: orangered;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.five-hundred {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.three-hundred {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.banner-img img {
+  position: relative;
 }
 /* banner css end */
+
+/* habit css start */
+.habit-section {
+  max-width: 1240px;
+  text-align: center;
+  color: #fff;
+}
+.habit-section h2 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.habit-section p {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: rgba(150, 149, 149, 0.732);
+  margin-bottom: 40px;
+}
+.habit-images img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.habit-text h3 {
+  font-size: 1.1rem;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.habit-section-image {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 15px;
+  margin: 0 auto;
+}
+
+/* habit css end */
