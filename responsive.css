@@ -58,6 +58,22 @@
   .bmi-calculator-section {
     flex-direction: column;
   }
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer-part {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-finish {
+    align-items: center;
+    max-width: 576px;
+  }
+  .footer-line {
+    width: 350px;
+    margin: 0 auto;
+  }
 }
 
 /* medium device  */
@@ -87,5 +103,17 @@
   }
   .subscription-container {
     width: 750px;
+  }
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer-finish {
+    align-items: center;
+    max-width: 700px;
+  }
+  .footer-line {
+    width: 570px;
+    margin: 0 auto;
   }
 }
