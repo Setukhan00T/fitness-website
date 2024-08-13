@@ -3,35 +3,37 @@
 @import url("https://fonts.cdnfonts.com/css/miama");
 
 .inter-font {
-  font-family: "Inter", sans-serif;
+  font-family: Inter, sans-serif;
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
 }
 
-* {
+body {
+  border: 1px solid salmon;
+  background-color: #252323;
   max-width: 1440px;
   margin: 0 auto;
-  background: rgb(12, 11, 11);
+  font-family: Inter, sans-serif;
 }
 /* nav css start */
 .nav-container {
   display: flex;
+  justify-content: space-evenly;
   color: #fff;
   align-items: center;
   margin-bottom: 100px;
   margin-top: 5px;
-  max-width: 1240px;
 }
 .nav-container h2 {
-  color: red;
+  color: orangered;
   font-size: 2.25rem;
   font-style: italic;
-  font-weight: 700;
+  font-weight: 900;
 }
 .nav-container ul {
   font-size: 1.1rem;
-  font-weight: 100;
+  font-weight: 300;
   list-style: none;
   display: inline-flex;
   align-items: center;
@@ -47,7 +49,7 @@
   height: 28px;
   border-radius: 50px;
   background: rgb(230, 83, 60);
-  padding: 8px 20px 8px 20px;
+  padding: 10px 25px;
   text-align: center;
 }
 .nav-burger {
@@ -58,27 +60,28 @@
 /* banner css start */
 .banner-container {
   max-width: 1240px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 .banner-text {
-  color: hsl(0, 0%, 100%);
+  color: hsl(0, 1%, 86%);
 }
 .banner-text h1 {
   font-size: 4.5rem;
   font-weight: 900;
 }
 .banner-shape {
-  font-family: "Miama", sans-serif;
+  font-family: Miama;
   font-size: 4.88rem;
   font-weight: 400;
 }
 .banner-text p {
   margin-top: 50px;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   font-size: 0.9rem;
-  color: #ffffff7f;
+  color: #f0efefbd;
 }
 .join-btn {
   color: #fff;
@@ -96,22 +99,22 @@
   border-radius: 42px;
   font-weight: 700;
   font-size: 1rem;
-  color: #fff;
+  color: #0b0b0b;
   padding: 16px 40px 16px 40px;
   margin-left: 4px;
   cursor: pointer;
 }
 .banner-box-1 {
-  color: #fff;
+  color: #faf6f6;
   text-align: center;
   box-sizing: border-box;
-  border: 1px solid rgba(255, 255, 255, 0.102);
+
+  background: rgba(63, 55, 55, 0.584);
   border-radius: 12px;
   position: absolute;
   padding: 15px 20px;
   top: 250px;
-  right: 150px;
-  border-style: none;
+  right: 250px;
 }
 .banner-box-2 {
   display: flex;
@@ -119,13 +122,12 @@
   color: #fff;
   text-align: center;
   box-sizing: border-box;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(63, 55, 55, 0.4);
   border-radius: 12px;
   padding: 15px 20px;
   position: absolute;
-  bottom: 100px;
+  bottom: 5px;
   left: 850px;
-  border-style: none;
 }
 .red-circle {
   width: 30px;
@@ -143,36 +145,16 @@
   font-weight: 500;
 }
 .banner-img img {
+  max-width: 100%;
   position: relative;
 }
 /* banner css end */
 
 /* habit css start */
 .habit-section {
-  max-width: 1240px;
+  max-width: 1440px;
   text-align: center;
   color: #fff;
-}
-.habit-section h2 {
-  font-size: 2.5rem;
-  font-weight: 900;
-  margin-top: 50px;
-  margin-bottom: 20px;
-}
-.habit-section p {
-  font-size: 0.9rem;
-  font-weight: 300;
-  color: rgba(150, 149, 149, 0.732);
-  margin-bottom: 40px;
-}
-.habit-images img {
-  border-radius: 50%;
-  margin-bottom: 10px;
-}
-.habit-text h3 {
-  font-size: 1.1rem;
-  margin-top: 5px;
-  margin-bottom: 5px;
 }
 .habit-section-image {
   display: flex;
@@ -181,5 +163,192 @@
   margin-top: 15px;
   margin: 0 auto;
 }
-
+.habit-section h2 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-top: 70px;
+}
+.habit-section p {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: rgba(150, 149, 149, 0.732);
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.habit-images img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.habit-images h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 /* habit css end */
+
+/* run css start */
+.run-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 50px;
+  align-items: center;
+  padding: 20px 25px;
+  width: 1060px;
+  height: 371px;
+  border-radius: 18px;
+  background: rgb(59, 57, 57);
+}
+.run-img img {
+  max-width: 400px;
+  height: auto;
+  border-radius: 20px;
+}
+.run-text h2 {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+.run-text p {
+  color: #dfdddd9e;
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.run-btn {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border-style: none;
+  background-color: orangered;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+/* run css end */
+/* subscription css start */
+.subscription-container {
+  color: #fff;
+  background-color: #373636;
+  width: 1060px;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px 25px;
+  margin-top: 50px;
+  border-radius: 18px;
+}
+.subscription-container h2 {
+  text-align: center;
+  font-size: 2.3rem;
+  font-family: miama;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.package-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.package {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.price {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.dash {
+  flex: 1;
+  border-bottom: 2px dashed #a09999;
+  margin: 20px;
+}
+/* subscription css end */
+
+/* bmi-calculator-css start */
+.bmi-calculator-title h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 800;
+}
+.bmi-calculator-title p {
+  margin-top: 8px;
+  text-align: center;
+  color: #b8b1b1;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.bmi-calculator-section {
+  display: flex;
+  gap: 20px;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 30px;
+}
+.bmi-calculator-chart h1 {
+  color: #faf6f6;
+  font-weight: 600;
+  font-size: 1.4rem;
+  text-align: center;
+}
+th,
+td {
+  color: #fff;
+  border: 1px solid #f0eeee;
+  padding: 8px;
+  text-align: center;
+}
+th {
+  background-color: rgb(25, 26, 26);
+}
+.chart-box,
+.input-box {
+  background-color: rgb(44, 51, 51);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.64);
+  flex: 1;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.input-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.input-group input,
+.input-group select {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: rgb(44, 51, 51);
+  color: #ffffff;
+}
+.input-group select.full-width {
+  flex: 2;
+}
+.button-group button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: orangered;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 50px;
+}
+.button-group button:hover {
+  background-color: #e0444c;
+}
+.bmi-calculator-form h1 {
+  color: #faf6f6;
+  font-weight: 600;
+  font-size: 1.4rem;
+  text-align: center;
+}
+/* bmi-calculator-css end */
