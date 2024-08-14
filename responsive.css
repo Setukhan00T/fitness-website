@@ -20,7 +20,7 @@
   .banner-box-1 {
     position: absolute;
     top: 730px;
-    right: 40px;
+    right: 4px;
     margin: 0 auto;
   }
   .banner-box-2 {
@@ -74,6 +74,9 @@
     width: 350px;
     margin: 0 auto;
   }
+  .join-btn {
+    margin-bottom: 10px;
+  }
 }
 
 /* medium device  */
@@ -82,8 +85,9 @@
   .banner-box-1 {
     position: absolute;
     top: 250px;
-    right: 5px;
+    right: 0.5px;
     margin: 0 auto;
+    padding: 5px 5px;
   }
   .banner-box-2 {
     position: absolute;
