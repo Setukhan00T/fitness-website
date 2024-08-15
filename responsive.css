@@ -19,7 +19,7 @@
   }
   .banner-box-1 {
     position: absolute;
-    top: 730px;
+    top: 780px;
     right: 4px;
     margin: 0 auto;
   }
@@ -27,7 +27,7 @@
     width: 200px;
     height: 100px;
     left: 50px;
-    top: 990px;
+    top: 1070px;
     margin: 0 auto;
   }
   .banner-img img {
@@ -84,7 +84,7 @@
 @media screen and (min-width: 650px) and (max-width: 980px) {
   .banner-box-1 {
     position: absolute;
-    top: 250px;
+    top: 350px;
     right: 0.5px;
     margin: 0 auto;
     padding: 5px 5px;
@@ -94,7 +94,7 @@
     width: 200px;
     height: 100px;
     left: 500px;
-    top: 590px;
+    top: 660px;
     margin: 0 auto;
   }
   .banner-img img {
